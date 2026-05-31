@@ -1,0 +1,2 @@
+[32mINFO    [0m lib.api_client:api_client.py:32 Request: POST https://jsonplaceholder.typicode.com/posts
+[32mINFO    [0m lib.api_client:api_client.py:34 Response status: 201

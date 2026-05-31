@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun May 31 14:11:27 CST 2026","Sun May 31 14:11:28 CST 2026","907","testcases","test_post_ddt","","","","test_create_post[Post from YAML 2]",""
+"passed","Sun May 31 14:11:26 CST 2026","Sun May 31 14:11:27 CST 2026","783","testcases","test_post_ddt","","","","test_create_post[Post from YAML 1]",""
+"passed","Sun May 31 13:54:10 CST 2026","Sun May 31 13:54:11 CST 2026","755","testcases","test_login","","","","test_get_post",""

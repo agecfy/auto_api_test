@@ -1,0 +1,5 @@
+﻿pytest==7.4.4
+requests==2.27.1
+PyYAML==5.4.1
+allure-pytest==2.13.2
+pytest-xdist==3.3.1

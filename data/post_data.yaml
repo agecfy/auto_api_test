@@ -1,0 +1,7 @@
+﻿test_posts:
+  - title: "Post from YAML 1"
+    body: "Content 1"
+    userId: 1
+  - title: "Post from YAML 2"
+    body: "Content 2"
+    userId: 2
