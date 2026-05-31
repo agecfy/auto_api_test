@@ -1,4 +1,4 @@
-锘縩ame: API Test Automation
+name: API Test Automation
 
 on:
   push:
@@ -6,17 +6,17 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 2 * * *'   # 姣忓ぉUTC鏃堕棿2鐐硅繍琛岋紙鍖椾含鏃堕棿10鐐癸級
+    - cron: '0 2 * * *'   # 每天UTC时间2点运行（北京时间10点）
 
 jobs:
   test:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Set up Python 3.7
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.7'
     
@@ -30,7 +30,7 @@ jobs:
         pytest testcases/ --alluredir=allure-results
     
     - name: Upload Allure results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: allure-results
         path: allure-results
